@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+   
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+        <nav>
+            <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">Resume Builder</button>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#m1">Milestone01&02</a></li>
+            </ul>
+        </nav>
+ <!-- Milestone 01 & 02 Static Resume -->
+        <section id="m1">
+            <div class="resume-container">
+                <div class="resume-header">
+                    <div class="image">
+                        <img src="./Arif.jpg" alt="Photo" />
+                    </div>
+                    <div class="personalinfo">
+                        <h1>Muhammad Arif Khan</h1>
+                        <p>Father's Name: Muhammad Idris Khan</p>
+                        <p>Email: muhammadarifkhan4u@gmail.com</p>
+                        <p>Phone: 0321-2234808</p>
+                        <p>Address: Flat# A-13, Raza Sqare, Block-10, Gulshan-e-Iqbal</p>
+                    </div>
+                </div>
+                <div class="resume-section">
+                    <h1>Education:-</h1>
+                    <p><strong>Degree: </strong> Masters of Administrative Sciences</p>
+                    <p><strong>Institution: </strong> University of Karachi</p>                    
+                    <p><strong>Masters Date: </strong> 2010 </p>
+                </div>          
+                <div class="resume-section">                      
+                <button id="toggle-skills" class="skills"><strong>Skills</strong></button>
+                <div id="skills" class="hidden">                   
+                   <ul>
+                        <li>HTML & CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>                        
+                    </ul>
+                </div>
+            </div>  
+                <br>
+                <div class="resume-section">
+                    <h1>Work Experience:-</h1>
+                    <p><strong>Name of Organization:</strong> National Institute of Oceanography</p>
+                    <p><strong>Designation:</strong> Office Assistant</p>
+                    <p><strong>Start Date:</strong> June, 2004</p>
+                    <p><strong>End Date:</strong> Present</p>
+                    <p><strong>Responsibilities:</strong> 
+                        "Standard Office Duties, Letter Writing, Note Put Up,
+                        Medical and Leave related matter, Computer Work."
+                    </p>
+                </div>
+                <div class="resume-section">
+                    <h1>About:-</h1>
+                    <p><strong>Proficiency in Computer applications such as: </strong><br><br>
+                        <strong> o </strong> Experience in Designing and Developing Web applications. <br>
+                        <strong> o </strong> Skills in Graphic Design, MS Office, and Programming Languages. <br>
+                        <strong> o </strong> Strong problem-solving skills and adjust any working environment.   
+                    </p>                  
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <script src="./main.js" type="module"></script>
+    </body>
+
+    </html>

@@ -1,0 +1,145 @@
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 25px;
+  padding: 0;
+  background-color: #f0f4f8;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+fieldset {
+  border: 2px solid #3498bd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+}
+
+legend {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #2c3e50;
+}
+
+input,
+textarea {
+  width: calc(100% - 25px);
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #3498bd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  width: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  padding: 10px;
+  background-color: rgb(34, 199, 221);
+  color: black;
+  border: 0.9px solid #3498bd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+button:hover {
+  background-color: #f0f4f8;
+}
+#toggle-skills{
+  display: block;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  padding: 8px;
+  background-color: #f0f4f8;
+  color: black;
+  border: 0.8px solid #3498bd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#toggle-skills:hover{
+  background-color: #3498bd;
+}
+
+.resume-created {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.resume-created h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #2c3e50;
+}
+
+.resume-created p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.resume-created fieldset {
+  border: 1px solid #3498db;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #ecf6fc;
+}
+
+.resume-created legend {
+  font-weight: bold;
+  color: #3498db;
+  padding: 0 10px;
+  font-size: 1.2em;
+}
+
+.resume-created p strong {
+  color: #2c3e50;
+}
+
+.profile-picture{
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #3498bd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 500%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
